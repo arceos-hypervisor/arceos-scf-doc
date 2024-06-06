@@ -2,6 +2,8 @@
 
 2023210900 苏明贤
 
+![](./scf-overview.svg)
+
 Syscall 转发流程中，涉及 Guest Linux 的有两个部分：内核驱动部分（VDEV Driver）和用户态守护进程（Shadow Process）部分。两部分参考 nimbos-driver 实现。
 
 ![](./scf.svg)
